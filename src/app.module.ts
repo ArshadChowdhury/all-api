@@ -14,7 +14,6 @@ import { ContactModule } from './contact/contact.module';
     MongooseModule.forRoot(process.env.DB_URI),
     ContactModule,
   ],
-
   controllers: [AppController],
   providers: [AppService],
 })
