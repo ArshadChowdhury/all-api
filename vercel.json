@@ -9,7 +9,7 @@
   "rewrites": [{ "source": "/(.*)", "destination": "src/main.ts" }],
   "headers": [
     {
-      "source": "https://arshadchowdhury.vercel.app/contact/portfolio/(.*)",
+      "source": "/contact/portfolio/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
