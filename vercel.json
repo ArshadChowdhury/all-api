@@ -2,7 +2,8 @@
   "version": 2,
   "headers": [
     {
-      "source": "/api/(.*)",
+      "src": "/(.*)",
+      "dest": "src/main.ts",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
